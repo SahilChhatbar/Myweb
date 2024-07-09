@@ -3,28 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sahil Chhatbar - Web Developer, Programmer, ML Enthusiast </title>
+    <title>Sahil Chhatbar - Web Developer, Programmer, ML Enthusiast</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
-    <div class="sidebar sidebarGo">
-        <nav>
-           <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="intro.html">My Intro</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="contact.html">Contact Me</a></li>
-            </ul>
-        </nav>
-    </div>
-    <div class="main">
-        <div class="hamburger"><img class="ham" src="hamburger-menu-bar-.png" alt="" width="23px">
-            <img class="cross" src="Cross-mark-icon-.png" alt="" width="35px">
+        <div class="sidebar sidebarGo">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="intro.html">My Intro</a></li>
+                    <li><a href="services.html">Projects</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact Me</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="main">
+            <div class="hamburger">
+                <img class="ham" src="hamburger-menu-bar-.png" alt="" width="23px">
+                <img class="cross" src="Cross-mark-icon-.png" alt="" width="35px">
             </div>
-            <div class="blink_me"><h3>coming soon!</h3><p style="left: 612px;">(nothing to see here)</p></div></div>
+            <!-- Projects Section -->
+            <div class="projects">
+                <h2>Projects</h2>
+                <ul>
+                    <li class="project-item">
+                        <img src="todo.jpeg" alt="Todo List Project" style="height: 280px; width: 105%;">
+                        <h3>Todo List using React</h3><p>A simple responsive todo list made using React.</p>
+                        <a href="https://github.com/SahilChhatbar/Todo-List-using-React" target="_blank">GitHub Repo</a>
+                    </li>
+                    <li class="project-item">
+                        <img src="port.png" alt="Personal Portfolio Website" style="height: 280px; width: 105%;">
+                        <h3>Personal Portfolio Website</h3><p>A responsive personal portfolio website which contains intro, projects and contact me sections, along with the obvious links.</p>
+                       <br> <a href="https://github.com/SahilChhatbar/Myweb" target="_blank">GitHub Repo</a>
+                    </li>
+                    <li class="project-item">
+                        <img src="cine.png" alt="CineScope Project" style="height: 320px; width: 105%;">
+                        <h3>CineScope</h3><p> a movie information website that utilizes real-time data and is made using React Js. It features lists of upcoming, popular, and top-rated movies, as well as individual movie detail pages. Additionally, it includes a unique chatbot that can suggest movies to users and provide details about a movie.</p>
+                        <a href="https://github.com/SahilChhatbar/CineScope-ReactJs" target="_blank">GitHub Repo</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </div>
-<script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
